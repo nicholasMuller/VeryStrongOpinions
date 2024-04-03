@@ -1,3 +1,65 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  max-width: 30em;
+  padding: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  background: black;
+}
+
+h1,
+h2,
+pre {
+  font-family: monospace;
+}
+
+h1,
+h2 {
+  font-size: 0.7em;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin: 0;
+  overflow: hidden;
+  line-height: 1.4;
+}
+
+pre {
+  margin-top: 1rem;
+  background: #efefef;
+  padding: 1em;
+  overflow: scroll;
+  font-size: 0.7em;
+  line-height: 1.4;
+}
+
+section {
+  border-top: 1px solid #ccc;
+  padding: 2em 0;
+}
+.opinion {
+  font-family: FernMicroWeb;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+}
+a {
+  color: red;
+}
